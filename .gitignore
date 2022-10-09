@@ -1,0 +1,17 @@
+datasets/*
+!datasets/*.py
+output/
+**/__pycache__/**
+*-data-vis/
+output/
+output
+.ipynb_checkpoints/
+starting_weights/
+logs/
+scripts/
+.vscode/.ropeproject/config.py
+.vscode/.ropeproject/objectdb
+**/*.egg*/**
+*.so
+build/
+dist/

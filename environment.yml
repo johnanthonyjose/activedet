@@ -1,0 +1,19 @@
+name: activedet
+channels:
+  - defaults
+  - pytorch-lts
+dependencies:
+  - python=3.7
+  - cudatoolkit=10.2
+  - torchaudio=0.8.1=py37
+  - pytorch=1.8.1=py3.7_cuda10.2_cudnn7.6.5_0
+  - torchvision=0.9.1=py37_cu102
+  - tensorboard==2.5.0
+  - pip
+  - black
+  - pytest
+  - pip:
+    - opencv-python==4.5.1.48
+    - -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.8/index.html 
+    - detectron2==0.5+cu102 
+    - transitions==0.8.10
